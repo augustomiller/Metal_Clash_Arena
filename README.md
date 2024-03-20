@@ -10,7 +10,7 @@
 
 Neste cenário futurista, os robôs se enfrentam em um jog de combate em turnos, com faíscas voando e engrenagens se chocando. Venha competir pela supremacia na Metal Clash Arena. 
 
-![_e4670583-6d26-4277-83d8-c976ce3cd04e](https://github.com/augustomiller/Metal_Clash_Arena/assets/990877/d9e35dba-877a-406a-81ee-f7e432e73bda)
+![_a7af4c17-26c7-48c3-a1d5-c320f4474853](https://github.com/augustomiller/AI-Search_index/assets/990877/d3ea0ad8-4fd7-4e81-95a1-de2e0e23b070)
 
 ## Desafio
 
