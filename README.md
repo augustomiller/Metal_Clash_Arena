@@ -1,2 +1,47 @@
-# Metal_Clash_Arena
-Neste cenário futurista, os robôs se enfrentam em uma arena de aço, com faíscas voando e engrenagens se chocando. Venha competir pela supremacia na Metal Clash Arena. Que a batalha comece! 🤖💥
+<div align="center">
+ <h1>Metal Clash Arena 🤖💥</h1>
+</div>
+
+ <p align="center">
+  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Documentação">Documentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Desafio">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#License">License</a></p>
+
+Neste cenário futurista, os robôs se enfrentam em um jog de combate em turnos, com faíscas voando e engrenagens se chocando. Venha competir pela supremacia na Metal Clash Arena. 
+
+![_e4670583-6d26-4277-83d8-c976ce3cd04e](https://github.com/augustomiller/Metal_Clash_Arena/assets/990877/d9e35dba-877a-406a-81ee-f7e432e73bda)
+
+## Desafio
+
+Projeto imersivo em Programação Orientada a Objetos (POO) em Python. Para colocar em prática fundamentos como herança, polimorfismo, encapsulamento e decoradores.
+
+Que a batalha comece! 🤖💥
+
+## Tecnologias
+
+- [Python](https://www.python.org/)
+- [Microsoft Copilot](https://copilot.microsoft.com/)
+- [VS Code](https://code.visualstudio.com/)
+- [Bash](https://www.gnu.org/software/bash/)
+- [Git](https://git-scm.com/)
+
+## Documentação
+
+- [Python Doc](https://www.python.org/doc/)
+- [Microsoft Copilot Doc](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)
+- [VS Code Doc](https://code.visualstudio.com/Docs)
+- [Bash Doc](https://www.gnu.org/software/bash/manual/bash.html)
+- [Git Doc](https://git-scm.com/doc)
+- [Markdown Doc](https://google.github.io/styleguide/docguide/style.html)
+
+## License
+
+<div align="center">
+  
+<p>This project is licensed under the MIT License. See the
+  <a href="https://mit-license.org/">
+    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License"></a> file for details.</p>
+<p>Made with&nbsp;💙 &nbsp;by Augusto Miller</p>
+  
+<div>
