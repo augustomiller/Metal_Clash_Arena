@@ -40,7 +40,27 @@ class Enemy(Character):
     def view_details(self):
         return f"{super().view_details()}\nTipo: {self.get_type()}\n"
     
-hero = Hero(name="Iron Man", life="100", level="5", skill="Super Força")
-print(hero.view_details())
-enemy = Enemy(name="", life="90", level="4", type="Voador")
-print(enemy.view_details())
+class Game:
+    """ Game Orchestrator Class  """
+
+    def __init__(self) -> None:
+        self.hero = Hero(name="Iron Man", life=100, level=5, skill="Super Força")
+        self.enemy = Enemy(name="Mandarim", life=90, level=4, type="Voador")
+
+    def start_battle(self):
+        """ Manages the turn of battles """
+
+        print("Iniciando batalha 🤖💥")
+
+        while self.hero.get_life() > 0 and self.enemy.get_life() > 0:
+            print("\nDetalhes dos personagens:")
+            print(self.hero.view_details())
+            print(self.enemy.view_details())
+
+            input("Pressione <Enter> para atacar 👊")
+            choice = input("Escolha: 1 para ataque normal ou 2 para o ataque especial!")
+
+
+# Creating Game Instance
+game = Game()
+game.start_battle()
