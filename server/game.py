@@ -57,8 +57,8 @@ class Game:
             print(self.hero.view_details())
             print(self.enemy.view_details())
 
-        input("Pressione <Enter> para atacar 👊")
-        choice = input("Escolha: 1 para ataque normal ou 2 para o ataque especial!")
+            input("Pressione <Enter> para atacar 👊")
+            choice = input("Escolha: 1 para ataque normal ou 2 para o ataque especial!")
 
 
 # Creating Game Instance
