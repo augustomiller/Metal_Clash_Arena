@@ -1,4 +1,4 @@
-
+import random
 
 class Character:
     def __init__(self, name, life, level):
@@ -24,7 +24,7 @@ class Character:
             self.__life = 0
 
     def strike(self, target):
-        damage = self.__level * 2
+        damage = random.randint(self.get_level() * 2, self.get_level() * 4)
         target.take_damage(damage)
         print(f"{self.get_name()} atacou {target.get_name()} e causou {damage}% de dano 😱")
     
@@ -40,7 +40,7 @@ class Hero(Character):
         return f"{super().view_details()}\nHabilidade: {self.get_skill()}\n"
     
     def special_attack(self, target):
-        damage = self.get_level() * 5
+        damage = random.randint(self.get_level() * 4, self.get_level() * 6)
         target.take_damage(damage)
         print(f"{self.get_name()} usou a habilidade especial {self.get_skill()} em {target.get_name()} e causou {damage}% de dano 😱")
 
@@ -89,8 +89,7 @@ class Game:
         if self.hero.get_life() > 0:
             print("\n Parabéns você venceu a batalha 🎉\n")
         else:
-            print("Você foi derrotado 😵‍💫")
-
+            print("\n Você foi derrotado 😵‍💫 \n")
 
 # Creating Game Instance
 game = Game()
