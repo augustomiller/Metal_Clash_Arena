@@ -38,6 +38,11 @@ class Hero(Character):
     
     def view_details(self):
         return f"{super().view_details()}\nHabilidade: {self.get_skill()}\n"
+    
+    def special_attack(self, target):
+        damage = self.get_level() * 5
+        target.take_damage(damage)
+        print(f"{self.get_name()} usou a habilidade especial {self.get_skill()} em {target.get_name()} e causou {damage}% de dano 😱")
 
 class Enemy(Character):
     def __init__(self, name, life, level, type):
@@ -55,7 +60,7 @@ class Game:
 
     def __init__(self) -> None:
         self.hero = Hero(name="Iron Man", life=100, level=5, skill="Super Força")
-        self.enemy = Enemy(name="Mandarim", life=90, level=4, type="Voador")
+        self.enemy = Enemy(name="Mandarim", life=95, level=5, type="Voador")
 
     def start_battle(self):
         """ Manages the turn of battles """
@@ -72,8 +77,14 @@ class Game:
 
             if choice == "1":
                 self.hero.strike(self.enemy)
+            elif choice == "2":
+                self.hero.special_attack(self.enemy)
             else:
                 print("Escolha inválida, escolha a opção 1 ou 2 😊")
+
+            if self.enemy.get_life() > 0:
+                self.enemy.strike(self.hero)
+            
 
         if self.hero.get_life() > 0:
             print("\n Parabéns você venceu a batalha 🎉\n")
